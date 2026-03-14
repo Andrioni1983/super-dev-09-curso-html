@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<style>
+    .botao-avaliacao {
+        background-color: yellow;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 0.3s;
+    }
+    .botao-avaliacao:hover {
+        background-color: orange;
+    }
+</style>
+</head>
+<body>
+
+<button class="botao-avaliacao" onclick="avaliar()">
+    ★ Avaliar
+</button>
+
+<script>
+    function avaliar() {
+        alert("Obrigado pela sua avaliação!");
+    }
+</script>
+
+</body>
+</html>
